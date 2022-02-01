@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    font-family: 'Urbanist', sans-serif;
+}
+#mainNavbar .navbar-brand{
+    font-family: 'Urbanist', sans-serif ;
+    color: #e63946;
+    padding-left: 50px;
+    font-weight: 800;
+    
+}
+#mainNavbar{
+    font-weight: 100;
+    background-color: #212529 ;
+    opacity: 80%;
+ 
+}
+
+#mainNavbar:hover{
+    opacity: 97%;
+    transition: 0.5s;
+}
+.header{
+    position:relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#flag{
+  width: fit-content;
+  height: 150px ;
+  transition: 0.4s;
+  object-fit: cover;
+   
+}
+
+#info_button{
+    display: none;
+}
+/* #image_button{
+    display: none;
+} */
