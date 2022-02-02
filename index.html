@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Country Picker</title>
-   <link rel="shortcut icon" href="https://world-geography-games.com/img/home-america1.png" />
+    <link rel="shortcut icon" href="https://world-geography-games.com/img/home-america1.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,17 +18,17 @@
 
 <body>
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="index.html" class="navbar-brand ">COUNTRY PICKER</a>
+        <a href="country_picker.html" class="navbar-brand ">COUNTRY PICKER</a>
     </nav>
     <div class="container mt-3">
         <div class="row">
-            <div class="header mx-auto col-3">
+            <div class="header mx-auto col-8 col-md-4">
                 <p class="h1 "> Random Country Picker </p>
             </div>
         </div>
         <div class="row frame mt-2">
-            <div class="flag col-3 mx-auto">
-                <a href="country_picker.html"> <img id="flag" class="img-thumbnail"
+            <div class="flag col-8 col-md-4 mx-auto">
+                <a href="index.html"> <img id="flag" class="img-thumbnail"
                         src="https://bloximages.chicago2.vip.townnews.com/idahostatejournal.com/content/tncms/assets/v3/editorial/e/28/e2868a6b-6a12-50d7-89e7-a21d4a74d98f/574615747ffe9.image.png?resize=1200%2C731"
                         alt="question mark flag">
                 </a>
@@ -37,19 +37,19 @@
 
 
         <div class="row">
-            <p id="country-name" class="h4 mx-auto text-center my-2"> Country Name</p>
+            <p id="country-name" class="h4 mx-auto text-center col-8 col-md-4 my-2"> Country Name</p>
         </div>
         <div class="row mt-2">
             <button onclick="randomCountry()" type="button" id="random_button"
-                class="main-button btn btn-warning col-3 mx-auto"> Give me a random
+                class="main-button btn btn-warning col-8 col-md-4 mx-auto"> Give me a random
                 country! </button>
         </div>
         <div class="row ">
-            <p class="col-md-3 mx-auto text-center"> <br> Click on the flag to refresh the page!</p>
+            <p class="col-8 col-md-4 mx-auto text-center"> <br> Click on the flag to refresh the page!</p>
         </div>
         <div class="row">
             <a href="https://www.wikipedia.org/" type="button" id="info_button" target="blank"
-                class="main-button btn btn-primary col-3 mx-auto"> Go to Wikipedia </a>
+                class="main-button btn btn-primary col-8 col-md-4 mx-auto"> Go to Wikipedia </a>
         </div>
         <!-- <div class="row mt-2">
             <a href="https://www.images.google.com/" type="button" id="image_button"
