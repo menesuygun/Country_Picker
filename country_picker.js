@@ -504,7 +504,7 @@ const flags = [
     "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Flag_of_%C3%85land.svg/255px-Flag_of_%C3%85land.svg.png",
 
 
-]
+];
 
 function randomCountry() {
     var randNum = Math.random()
@@ -526,14 +526,15 @@ function randomCountry() {
         document.getElementById('flag').src = getRandomFlag();
         document.getElementById('random_button').innerText = "Give me another!";
         document.getElementById('info_button').style.display = 'inline'
-        // document.getElementById('image_button').style.display = 'inline'
-        // document.getElementById('info_button').href = `${links[getRandomNumber(countryList.length)]}`
-        
-        // document.getElementById('image_button').href = "https://www.google.com/search?q=" + getRandomCountry();
+        document.getElementById('google_search').style.display = 'inline'
+        document.getElementById('refresh_button').style.display = 'inline'
+
+
+        document.getElementById('google_search').href = "https://www.google.com/search?q=" + getRandomCountry();
         document.getElementById('info_button').href = "https://www.wikipedia.org/wiki/" + getRandomCountry();
     }
 
-    
+
     // document.getElementById('random_button')
     // addEventListener('click', setRandomCountry);
 
@@ -543,4 +544,3 @@ function randomCountry() {
 }
 
 
- 
