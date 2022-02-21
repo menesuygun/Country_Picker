@@ -524,10 +524,16 @@ function randomCountry() {
     const setRandomCountry = () => {
         document.getElementById('country-name').innerText = getRandomCountry();
         document.getElementById('flag').src = getRandomFlag();
-        document.getElementById('random_button').innerText = "Give me another!";
+
+        // document.getElementById('random_button').style.display = 'none';
+
+        document.getElementById('random_button').innerText = "Give me another!"
+        document.getElementById('refresh_button').style.display = 'inline'
         document.getElementById('info_button').style.display = 'inline'
         document.getElementById('google_search').style.display = 'inline'
-        document.getElementById('refresh_button').style.display = 'inline'
+
+
+
 
 
         document.getElementById('google_search').href = "https://www.google.com/search?q=" + getRandomCountry();
