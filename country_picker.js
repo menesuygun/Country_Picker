@@ -231,7 +231,7 @@ const countryList = [
     "Turks and Caicos Islands",
     "Tuvalu",
     "Uganda",
-    "Ukraine",
+    "(Free) Ukraine",
     "United Arab Emirates",
     "United Kingdom of Great Britain and Northern Ireland",
     "United States Minor Outlying Islands",
