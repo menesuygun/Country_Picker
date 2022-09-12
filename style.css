@@ -11,9 +11,9 @@ body{
 
 #flag{
   width: 100% ;
-  height: 175px ;
+  height: 350px ;
   transition: 0.4s;
-  object-fit:fill ;
+  object-fit: fit ;
    
 }
 
@@ -24,5 +24,8 @@ body{
     display: none;
 }
 #refresh_button{
+    display: none;
+}
+#question{
     display: none;
 }
