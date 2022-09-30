@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Country Picker</title>
-    <link rel="shortcut icon"
-        href="https://cdn0.iconfinder.com/data/icons/peace-not-war/32/planet_earth_heart_love_world_peace-512.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&family=Michroma&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="country_picker.js"></script>
-</head>
 
 <body>
     <div class="container-fluid">
@@ -24,11 +6,11 @@
         </div>
         <div class="row justify-content-center flag">
             <div class=" col-lg-4">
-                    <a class="" href="index.html">
-                        <img id="flag" class="img-fluid border border-3"
-                            src="https://img.freepik.com/free-vector/earth-map-countries_1284-34068.jpg?w=1480&t=st=1664319242~exp=1664319842~hmac=0b2d3ecfec1433767c5f104b86e1f6309afdbf9452048529d58ec294e975b752"
-                            alt="question mark flag">
-                    </a>   
+                <a class="" href="index.html">
+                    <img id="flag" class="img-fluid border border-3"
+                        src="https://img.freepik.com/free-vector/earth-map-countries_1284-34068.jpg?w=1480&t=st=1664319242~exp=1664319842~hmac=0b2d3ecfec1433767c5f104b86e1f6309afdbf9452048529d58ec294e975b752"
+                        alt="question mark flag">
+                </a>
             </div>
         </div>
         <br>
@@ -38,23 +20,27 @@
         <br>
         <div class="row justify-content-center">
             <button onclick="randomCountry()" type="button" id="random_button"
-                class=" btn btn-warning btn-lg col-lg-6 "> Give me a random country! </button>
-        </div>
-        <div class="row justify-content-center mt-2 ">
-            <a href="index.html" type="button" id="refresh_button" class=" btn btn-success btn-lg col-lg-6  ">
-                Refresh the page </a>
+                class=" btn btn-warning btn-lg col-lg-4 "> Give me a random country </button>
         </div>
         <div class="row justify-content-center mt-2 ">
             <a href="https://www.wikipedia.org/" type="button" id="info_button" target="blank"
-                class=" btn btn-primary btn-lg col-lg-6"> Go to Wikipedia </a>
+                class=" btn btn-primary btn-lg col-lg-4"> Go to Wikipedia </a>
         </div>
         <div class="row justify-content-center mt-2">
             <a href="https://www.google.com/" type="button" id="google_search" target="blank"
-                class="main-button btn btn-secondary btn-lg col-lg-6"> Search on Google </a>
+                class="main-button btn btn-danger btn-lg col-lg-4"> Search on Google </a>
         </div>
         <div class="row justify-content-center mt-2">
             <a href="https://www.google.com/" type="button" id="google_search" target="blank"
-                class="main-button btn btn-secondary btn-lg col-lg-6"> Search on Google </a>
+                class="main-button btn btn-secondary btn-lg col-lg-4"> Search on Google </a>
+        </div>
+        <div class="row justify-content-center">
+            <a href="https://www.google.com/" type="button" id="food_search" target="blank"
+                class="main-button btn btn-info btn-lg col-lg-4"> Traditional Foods </a>
+        </div>
+        <div class="row justify-content-center mt-2 ">
+            <a href="index.html" type="button" id="refresh_button" class=" btn btn-success btn-lg col-lg-4">
+                Refresh the page </a>
         </div>
 
     </div>
@@ -63,10 +49,10 @@
 
         <div class="row justify-content-center mt-2">
             <a href="https://github.com/menesuygun" type="button" id="github_button" target="_blank"
-                class=" btn btn-info btn-sm col-lg-6"> Go to my Github account </a> </p>
+                class=" btn btn-warning btn-sm col-lg-3"> Go to my Github account </a> </p>
         </div>
         <div class="row justify-content-center ">
-            <a href="flag_game.html" type="button" id="flag_game" class="button btn btn-danger btn- col-lg-6 disabled">
+            <a href="flag_game.html" type="button" id="flag_game" class="button btn btn-danger btn- col-lg-3 disabled">
                 Flag Game <span class="badge bg-dark">
                     Coming Soon</span> </a>
         </div>
@@ -98,5 +84,3 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
-
-</html>
