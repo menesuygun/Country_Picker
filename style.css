@@ -31,6 +31,9 @@ body {
 #refresh_button {
     display: none;
 }
+#food_search{
+    display: none;
+}
 
 #question {
     display: none;
