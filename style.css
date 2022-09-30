@@ -31,7 +31,8 @@ body {
 #refresh_button {
     display: none;
 }
-#food_search {
+
+#food_search{
     display: none;
 }
 
