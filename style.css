@@ -1,34 +1,41 @@
-body{
+body {
     background-color: white;
     font-family: 'Urbanist', sans-serif;
     margin-top: 1%;
     padding-top: 1%;
 }
-.header{  
+
+.header {
     text-align: center;
 
 }
 
-#flag{
-  width: 100% ;
-  height: 350px ;
-  transition: 0.4s;
-  object-fit: fit ;
-   
+
+#flag {
+    width: 100%;
+    height: 400px;
+    transition: 0.4s;
+    object-fit: fit;
+
+
 }
 
-#info_button{
+#info_button {
     display: none;
 }
-#google_search{
+
+#google_search {
     display: none;
 }
-#refresh_button{
+
+#refresh_button {
     display: none;
 }
-#question{
+
+#question {
     display: none;
 }
-#freepik{
+
+#freepik {
     font-size: small;
 }
