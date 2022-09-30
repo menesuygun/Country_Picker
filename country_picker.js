@@ -405,7 +405,7 @@ const flags = [
     "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/1900px-Flag_of_Namibia.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Nauru.svg",
     "https://cdn.britannica.com/70/2970-050-796F522C/Flag-Nepal.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1255px-Flag_of_the_Netherlands.svg.png",
     "https://www.flagsonline.it/uploads/2019-11-13/1200-0/Nouvelle-caledonie_Drapeau_Flag_Bandiera.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/1900px-Flag_of_New_Zealand.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/1800px-Flag_of_Nicaragua.svg.png",
