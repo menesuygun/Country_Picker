@@ -538,6 +538,7 @@ function randomCountry() {
         document.getElementById('google_search').href = "https://www.google.com/search?q=" + getRandomCountry();
         document.getElementById('info_button').href = "https://www.wikipedia.org/wiki/" + getRandomCountry();
         document.getElementById('food_search').href = "https://www.google.com/search?q=" + "Traditional " + getRandomCountry() + " Foods";
+
     }
 
 
@@ -548,5 +549,3 @@ function randomCountry() {
 
 
 }
-
-
